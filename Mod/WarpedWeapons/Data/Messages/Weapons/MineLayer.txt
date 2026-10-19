@@ -1,0 +1,23 @@
+SUBJECT
+Mine Launcher
+IMAGE
+picture
+TFNM Textures\Xavier\WRailgun.tex
+TEXT
+
+WEAPON:    Energy Mine Launcher
+AMMO:      Mine Packs (3 mines each)
+
+DESCRIPTION:
+
+Throws energy mines that stick around wherever they land. A mine arms itself as soon as it settles and goes off when a player walks into it, when it is shot or when its owner detonates it. Up to three mines can be active at once.
+
+SECONDARY FIRE:
+
+Detonates all of your placed mines.
+
+NOTES:
+
+- Mines do not tell friend from foe - do not walk into your own mines
+- Monsters do not set mines off by touch - detonate them remotely
+- Lure enemies over the mines and blow them up remotely

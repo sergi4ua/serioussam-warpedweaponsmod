@@ -1,0 +1,37 @@
+# Assets copied from Seriously Warped Deathmatch v3.0 (Mods\Warped\Warped3.gro) into WarpedWeapons.gro
+# by Tools\Build-Mod.ps1. One archive path per line.
+
+# Plasmathrower - view/item models, sounds
+Models/Weapons/PlasmaThrower/Laser.mdl
+Models/Weapons/PlasmaThrower/LaserItem.mdl
+Models/Weapons/PlasmaThrower/Body.mdl
+Models/Weapons/PlasmaThrower/Barrel.mdl
+Models/Weapons/PlasmaThrower/Barrel_big.mdl
+Models/Weapons/PlasmaThrower/Body.tex
+Models/Weapons/PlasmaThrower/Barrel.tex
+Models/Weapons/PlasmaThrower/Barrel_big.tex
+Models/Weapons/PlasmaThrower/Sounds/_Fire.wav
+Models/Weapons/PlasmaThrower/Sounds/_Explosion.wav
+# Plasmathrower bolt
+Models/LaserRed.tex
+
+# Minelayer - launcher parts, mine, sounds
+Models/Weapons/CPPR/Body.mdl
+Models/Weapons/CPPR/Body.tex
+Models/Weapons/CPPR/MovingPipe.mdl
+Models/Weapons/CPPR/MovingPipe.tex
+Models/Weapons/CPPR/Sounds/_Fire.wav
+Models/Weapons/Mine/Mine.mdl
+Models/Weapons/Mine/Mine.tex
+
+# ammo items
+Models/Weapons/AMMO_PlasmaPack.mdl
+Models/Weapons/AMMO_PlasmaPack.tex
+Models/Weapons/AMMO/AMMO_Mine.mdl
+Models/Weapons/AMMO/AMMO_Mine.tex
+
+# HUD icons
+Textures/Xavier/WPlasmaThrower.tex
+Textures/Xavier/WRailgun.tex
+Textures/Xavier/AmPlasma.tex
+TexturesMP/Interface/AFSL/Mine_Icon.tex

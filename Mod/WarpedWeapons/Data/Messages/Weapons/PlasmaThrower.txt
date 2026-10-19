@@ -1,0 +1,23 @@
+SUBJECT
+Charged Plasma Thrower
+IMAGE
+picture
+TFNM Textures\Xavier\WPlasmaThrower.tex
+TEXT
+
+WEAPON:    Charged Plasma Thrower
+AMMO:      Plasma Packs (50 cells each)
+ROF:       ~170 bolts/min
+
+DESCRIPTION:
+
+An energy weapon built on a lasergun frame. Two barrels take turns firing fast plasma bolts that burst on impact and damage everything close to the point of impact.
+
+SECONDARY FIRE:
+
+Releases a spread of eight plasma bolts at once. Uses 5 cells per shot.
+
+NOTES:
+
+- Bolts burst on impact, so be careful when shooting at enemies close by
+- Secondary fire is deadly at short range
