@@ -44,8 +44,6 @@ This project uses Claude Opus 5.5 for assistance and research. No AI was used fo
 
 **Disclaimer:**
 
-This project is NOT related to Serious Sam: Origins or it's authors.
-
 Project is fan-made and is not related to Croteam or Devolver Digital.
 
 
