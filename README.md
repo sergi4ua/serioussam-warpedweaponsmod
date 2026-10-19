@@ -22,6 +22,10 @@ New weapons should appear when you activate the /cht\_bGiveAll=1 or "please give
 
 
 
+Please report any issues you find :)
+
+
+
 **Tested by:**
 
 Sergi4UA
