@@ -719,7 +719,9 @@ void CPlayerPatch::P_RenderHUD(RENDER_ARGS(prProjection, pdp, vLightDir, colLigh
   }
 
   // Render crosshair while not sniping
-  if (CHud::pRenderCrosshair_opt != NULL && !bSniping)
+  // [WW] plView is only set for these two views; without this the crosshair flashes on the death camera
+  if (CHud::pRenderCrosshair_opt != NULL && !bSniping
+   && (m_iViewState == PVT_PLAYEREYES || m_iViewState == PVT_3RDPERSONVIEW))
   {
     (enWeapons.*CHud::pRenderCrosshair_opt)(prProjection, pdp, plView);
   }

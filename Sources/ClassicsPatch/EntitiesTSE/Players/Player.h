@@ -485,139 +485,142 @@ void PreapplyAction(const CPlayerAction & paAction);
 #line 3779 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void ApplyAction(const CPlayerAction & paOriginal,FLOAT tmLatency);
    
-#line 3945 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 3955 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void Disconnect(void);
    
-#line 3956 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 3966 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void CharacterChanged(const CPlayerCharacter & pcNew);
    
-#line 4018 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4028 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void AliveActions(const CPlayerAction & pa);
    
-#line 4052 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4062 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void AutoActions(const CPlayerAction & pa);
    
-#line 4138 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4148 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void GetLerpedWeaponPosition(FLOAT3D vRel,CPlacement3D & pl);
    
-#line 4147 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4157 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void SpawnBubbles(INDEX ctBubbles);
    
-#line 4162 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4172 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void PlayPowerUpSound(void);
    
-#line 4167 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4177 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void ActiveActions(const CPlayerAction & paAction);
    
-#line 4648 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4658 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void RoundViewAngle(ANGLE & aViewAngle,ANGLE aRound);
    
-#line 4658 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4668 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void DeathActions(const CPlayerAction & paAction);
    
-#line 4723 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4733 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void ButtonsActions(CPlayerAction & paAction);
    
-#line 4842 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4853 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+BOOL ScopeKeyIsWeaponKey(void);
+   
+#line 4859 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void ApplySniperZoom(BOOL bZoomIn);
    
-#line 4865 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4882 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 BOOL CheatsEnabled(void);
    
-#line 4871 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4888 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void Cheats(void);
    
-#line 4934 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 4951 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void GetLerpedAbsoluteViewPlacement(CPlacement3D & plView);
    
-#line 5009 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5026 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 CEntity * GetViewEntity(void);
    
-#line 5037 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5054 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void RenderChainsawParticles(BOOL bThird);
 
 #if SE1_VER < SE1_107
    
-#line 5074 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5091 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void RenderHUD(CPerspectiveProjection3D & pr,CDrawPort * pdp,
-#line 5075 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5092 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 FLOAT3D vLightDir,COLOR colLight,COLOR colAmbient,BOOL bRenderWeapon);
 
 #endif
    
-#line 5082 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5099 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void RenderHUD(CPerspectiveProjection3D & prProjection,CDrawPort * pdp,
-#line 5083 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5100 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 FLOAT3D vViewerLightDirection,COLOR colViewerLight,COLOR colViewerAmbient,
-#line 5084 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5101 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 BOOL bRenderWeapon,INDEX iEye);
    
-#line 5198 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5215 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 CEntity * GetDeathmatchStartMarker(void);
    
-#line 5267 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5284 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void InitializePlayer();
    
-#line 5305 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5322 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 FLOAT3D GetTeleportingOffset(void);
    
-#line 5323 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5340 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void RemapLevelNames(INDEX & iLevel);
    
-#line 5372 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5389 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void TeleportPlayer(enum WorldLinkType EwltType);
    
-#line 5630 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5647 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void RecordEndOfLevelData(void);
    
-#line 5663 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5680 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void SpawnTeleport(void);
    
-#line 5685 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5702 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void RenderParticles(void);
    
-#line 5732 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5749 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void TeleportToAutoMarker(CPlayerActionMarker * ppam);
    
-#line 5762 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5779 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 void CheckDeathForRespawnInPlace(EDeath eDeath);
 #define  STATE_CPlayer_Wounded 0x01910005
   BOOL 
-#line 5783 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5800 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 Wounded(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_WorldChange 0x01910006
   BOOL 
-#line 5791 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5808 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 WorldChange(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_WorldChangeDead 0x01910007
   BOOL 
-#line 5822 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5839 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 WorldChangeDead(const CEntityEvent &__eeInput);
   BOOL H0x01910008_WorldChangeDead_01(const CEntityEvent &__eeInput);
   BOOL H0x01910009_WorldChangeDead_02(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_Death 0x0191000a
   BOOL 
-#line 5853 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 5870 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 Death(const CEntityEvent &__eeInput);
   BOOL H0x0191000b_Death_01(const CEntityEvent &__eeInput);
   BOOL H0x0191000c_Death_02(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_TheEnd 0x0191000d
   BOOL 
-#line 6121 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6138 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 TheEnd(const CEntityEvent &__eeInput);
   BOOL H0x0191000e_TheEnd_01(const CEntityEvent &__eeInput);
   BOOL H0x0191000f_TheEnd_02(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_FirstInit 0x01910010
   BOOL 
-#line 6176 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6193 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 FirstInit(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_Rebirth 0x01910011
   BOOL 
-#line 6207 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6224 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 Rebirth(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoGoToMarker 0x01910012
   BOOL 
-#line 6249 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6266 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoGoToMarker(const CEntityEvent &__eeInput);
   BOOL H0x01910013_AutoGoToMarker_01(const CEntityEvent &__eeInput);
   BOOL H0x01910014_AutoGoToMarker_02(const CEntityEvent &__eeInput);
@@ -625,7 +628,7 @@ AutoGoToMarker(const CEntityEvent &__eeInput);
   BOOL H0x01910016_AutoGoToMarker_04(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoGoToMarkerAndStop 0x01910017
   BOOL 
-#line 6281 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6298 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoGoToMarkerAndStop(const CEntityEvent &__eeInput);
   BOOL H0x01910018_AutoGoToMarkerAndStop_01(const CEntityEvent &__eeInput);
   BOOL H0x01910019_AutoGoToMarkerAndStop_02(const CEntityEvent &__eeInput);
@@ -633,7 +636,7 @@ AutoGoToMarkerAndStop(const CEntityEvent &__eeInput);
   BOOL H0x0191001b_AutoGoToMarkerAndStop_04(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoUseItem 0x0191001c
   BOOL 
-#line 6321 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6338 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoUseItem(const CEntityEvent &__eeInput);
   BOOL H0x0191001d_AutoUseItem_01(const CEntityEvent &__eeInput);
   BOOL H0x0191001e_AutoUseItem_02(const CEntityEvent &__eeInput);
@@ -643,7 +646,7 @@ AutoUseItem(const CEntityEvent &__eeInput);
   BOOL H0x01910022_AutoUseItem_06(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoPickItem 0x01910023
   BOOL 
-#line 6366 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6383 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoPickItem(const CEntityEvent &__eeInput);
   BOOL H0x01910024_AutoPickItem_01(const CEntityEvent &__eeInput);
   BOOL H0x01910025_AutoPickItem_02(const CEntityEvent &__eeInput);
@@ -651,19 +654,19 @@ AutoPickItem(const CEntityEvent &__eeInput);
   BOOL H0x01910027_AutoPickItem_04(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoFallDown 0x01910028
   BOOL 
-#line 6401 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6418 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoFallDown(const CEntityEvent &__eeInput);
   BOOL H0x01910029_AutoFallDown_01(const CEntityEvent &__eeInput);
   BOOL H0x0191002a_AutoFallDown_02(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoFallToAbys 0x0191002b
   BOOL 
-#line 6413 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6430 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoFallToAbys(const CEntityEvent &__eeInput);
   BOOL H0x0191002c_AutoFallToAbys_01(const CEntityEvent &__eeInput);
   BOOL H0x0191002d_AutoFallToAbys_02(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoLookAround 0x0191002e
   BOOL 
-#line 6426 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6443 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoLookAround(const CEntityEvent &__eeInput);
   BOOL H0x0191002f_AutoLookAround_01(const CEntityEvent &__eeInput);
   BOOL H0x01910030_AutoLookAround_02(const CEntityEvent &__eeInput);
@@ -671,11 +674,11 @@ AutoLookAround(const CEntityEvent &__eeInput);
   BOOL H0x01910032_AutoLookAround_04(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoTeleport 0x01910033
   BOOL 
-#line 6450 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6467 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoTeleport(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoAppear 0x01910034
   BOOL 
-#line 6459 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6476 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoAppear(const CEntityEvent &__eeInput);
   BOOL H0x01910035_AutoAppear_01(const CEntityEvent &__eeInput);
   BOOL H0x01910036_AutoAppear_02(const CEntityEvent &__eeInput);
@@ -687,13 +690,13 @@ AutoAppear(const CEntityEvent &__eeInput);
   BOOL H0x0191003c_AutoAppear_08(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_TravellingInBeam 0x0191003d
   BOOL 
-#line 6511 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6528 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 TravellingInBeam(const CEntityEvent &__eeInput);
   BOOL H0x0191003e_TravellingInBeam_01(const CEntityEvent &__eeInput);
   BOOL H0x0191003f_TravellingInBeam_02(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_LogoFireMinigun 0x01910040
   BOOL 
-#line 6531 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6548 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 LogoFireMinigun(const CEntityEvent &__eeInput);
   BOOL H0x01910041_LogoFireMinigun_01(const CEntityEvent &__eeInput);
   BOOL H0x01910042_LogoFireMinigun_02(const CEntityEvent &__eeInput);
@@ -705,7 +708,7 @@ LogoFireMinigun(const CEntityEvent &__eeInput);
   BOOL H0x01910048_LogoFireMinigun_08(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_AutoStoreWeapon 0x01910049
   BOOL 
-#line 6593 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6610 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 AutoStoreWeapon(const CEntityEvent &__eeInput);
   BOOL H0x0191004a_AutoStoreWeapon_01(const CEntityEvent &__eeInput);
   BOOL H0x0191004b_AutoStoreWeapon_02(const CEntityEvent &__eeInput);
@@ -713,7 +716,7 @@ AutoStoreWeapon(const CEntityEvent &__eeInput);
   BOOL H0x0191004d_AutoStoreWeapon_04(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_DoAutoActions 0x0191004e
   BOOL 
-#line 6627 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6644 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 DoAutoActions(const CEntityEvent &__eeInput);
   BOOL H0x0191004f_DoAutoActions_01(const CEntityEvent &__eeInput);
   BOOL H0x01910050_DoAutoActions_02(const CEntityEvent &__eeInput);
@@ -802,7 +805,7 @@ DoAutoActions(const CEntityEvent &__eeInput);
   BOOL H0x019100a3_DoAutoActions_85(const CEntityEvent &__eeInput);
 #define  STATE_CPlayer_Main 1
   BOOL 
-#line 6845 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
+#line 6862 "F:/Serious Sam Classic The Second Encounter/WarpedWeaponsMod/Sources/ClassicsPatch/EntitiesTSE/Players/Player.es"
 Main(const CEntityEvent &__eeInput);
   BOOL H0x019100a4_Main_01(const CEntityEvent &__eeInput);
   BOOL H0x019100a5_Main_02(const CEntityEvent &__eeInput);

@@ -3647,6 +3647,16 @@ functions:
     }
 
     ulButtonsNow = paAction.pa_ulButtons;
+    // [WW] the sniper scope key and Alternate Fire act as one button: Alternate Fire works the
+    // scope of the Sniper, and the scope key fires the secondary of the Plasmathrower and Minelayer
+    {
+      INDEX iWeapon = GetPlayerWeapons()->m_iCurrentWeapon;
+      if (iWeapon==WEAPON_SNIPER && (ulButtonsNow&PLACT_SECONDARY_FIRE)) {
+        ulButtonsNow = (ulButtonsNow&~PLACT_SECONDARY_FIRE)|PLACT_USE_HELD|PLACT_SNIPER_USE;
+      } else if ((iWeapon==WEAPON_PLASMATHROWER || iWeapon==WEAPON_MINELAYER) && (ulButtonsNow&PLACT_USE_HELD)) {
+        ulButtonsNow |= PLACT_SECONDARY_FIRE;
+      }
+    }
     ulButtonsBefore = m_ulLastButtons;
     ulNewButtons = ulButtonsNow&~ulButtonsBefore;
     ulReleasedButtons = (~ulButtonsNow)&(ulButtonsBefore);
@@ -4519,13 +4529,13 @@ functions:
 
     // if use is pressed
     if (ulNewButtons&PLACT_USE) {
-      if (((CPlayerWeapons&)*m_penWeapons).m_iCurrentWeapon==WEAPON_SNIPER) {
+      if (ScopeKeyIsWeaponKey()) {  // [WW]
         UsePressed(FALSE);
       } else {
         UsePressed(ulNewButtons&PLACT_COMPUTER);
       }
     // if USE is not detected due to doubleclick and player is holding sniper
-    } else if (ulNewButtons&PLACT_SNIPER_USE && ((CPlayerWeapons&)*m_penWeapons).m_iCurrentWeapon==WEAPON_SNIPER) {
+    } else if (ulNewButtons&PLACT_SNIPER_USE && ScopeKeyIsWeaponKey()) {  // [WW]
       UsePressed(FALSE);
     // if computer is pressed
     } else if (ulNewButtons&PLACT_COMPUTER) {
@@ -4563,6 +4573,13 @@ functions:
       paAction.pa_aRotation(2) += Clamp( -en_plViewpoint.pl_OrientationAngle(2)/_pTimer->TickQuantum, -900.0f, +900.0f);
     }
   };
+
+  // [WW] does the sniper scope key belong to the current weapon (so it doesn't call NETRICSA)
+  BOOL ScopeKeyIsWeaponKey(void)
+  {
+    INDEX iWeapon = GetPlayerWeapons()->m_iCurrentWeapon;
+    return iWeapon==WEAPON_SNIPER || iWeapon==WEAPON_PLASMATHROWER || iWeapon==WEAPON_MINELAYER;
+  }
 
   void ApplySniperZoom( BOOL bZoomIn )
   {
@@ -4834,7 +4851,8 @@ functions:
       // camera view
       plView = ((CPlayerView&)*m_pen3rdPersonView).GetPlacement();
     }
-    if (!bSniping) {
+    // [WW] plView is only set for these two views (not for the death camera)
+    if (!bSniping && (m_iViewState==PVT_PLAYEREYES || m_iViewState==PVT_3RDPERSONVIEW)) {
       ((CPlayerWeapons&)*m_penWeapons).RenderCrosshair(prProjection, pdp, plView);
     }
 

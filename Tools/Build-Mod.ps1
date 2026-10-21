@@ -57,7 +57,7 @@ $repo = Split-Path -Parent $PSScriptRoot
 if (-not $GameDir) { $GameDir = Split-Path -Parent $repo }
 $GameDir = (Resolve-Path $GameDir).Path
 
-$version = '1.2.0'
+$version = '1.3.1'
 $modName = 'WarpedWeapons'
 $modExt  = 'WW'
 

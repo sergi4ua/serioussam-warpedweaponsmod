@@ -35,6 +35,11 @@ Controls > Change controls > Customize buttons):
     Plasma Thrower   9
     Mine Layer       -
 
+Alternate Fire also sits on the sniper scope key (Use / NETRICSA / Sniper Zoom, right
+mouse button by default): with the Plasma Thrower or Mine Layer in hand that key fires
+the alternate fire, and with the Sniper pressing Alternate Fire works the scope. With these
+two weapons the scope key still uses switches but doesn't open NETRICSA.
+
 If one of these keys is already used for something else in your controls, that button is
 added without a key - just assign one in the menu.
 

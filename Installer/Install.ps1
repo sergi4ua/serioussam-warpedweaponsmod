@@ -98,5 +98,5 @@ foreach ($ctl in Get-ControlsFiles $GameDir) {
 
 Write-Host ''
 Write-Host 'Warped Weapons is installed. Start the game as usual.'
-Write-Host 'Plasma Thrower: 9, Mine Layer: -, Alternate Fire: G or Right Ctrl'
+Write-Host 'Plasma Thrower: 9, Mine Layer: -, Alternate Fire: G, Right Ctrl or the sniper scope key'
 Write-Host '(change them in Options > Players and Controls > Change controls > Customize buttons).'
