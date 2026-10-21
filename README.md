@@ -30,19 +30,27 @@ Please report any issues you find :)
 
 Sergi4UA
 
-Hyper\_Virus
+Hyper\_Virus (from SERIOUS SAM HYPER SERVER Telegram Community)
 
 
 
 **Credits:**
 
-Big thank you to Xavier, LanThief, Vinz, Mwadiabe (original developers of the Warped mod), DreamyCecil (for Classics Patch)
+Big thank you to Xavier, LanThief, Vinz, Mwadiabe (original developers of the Warped mod) and DreamyCecil (for Classics Patch)
+
+
+
+Third Party libraries:
+
+Classics Patch by Dreamy Cecil
+
+SE1-ModSDK by Dreamy Cecil and Croteam
 
 
 
 **AI Disclosure:**
 
-This project uses Claude Opus 5.5 for assistance and research. No AI was used for art generation, models, textures, music and world creation.
+This project uses Claude Opus 5.5 for coding, assistance and research. No AI was used for art generation, models, textures, music and world creation.
 
 
 
