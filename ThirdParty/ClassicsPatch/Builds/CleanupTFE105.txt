@@ -1,0 +1,11 @@
+Data\ClassicsPatch\LevelCategories\01_TSE.des
+Data\ClassicsPatch\LevelCategories\01_TSE.lst
+Data\ClassicsPatch\LevelCategories\02_SSR.des
+Data\ClassicsPatch\LevelCategories\02_SSR.lst
+Textures\
+TexturesPatch\Interface\Revolution\P*.tex
+TexturesPatch\Interface\Revolution\AmFuelReservoir.tex
+TexturesPatch\Interface\Revolution\AmSniperBullets.tex
+TexturesPatch\Interface\Revolution\WChainsaw.tex
+TexturesPatch\Interface\Revolution\WFlamer.tex
+TexturesPatch\Interface\Revolution\WSniper.tex

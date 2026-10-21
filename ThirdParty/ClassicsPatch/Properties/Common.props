@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <BinDir>$(SolutionDir)Bin\$(Configuration)\</BinDir>
+    <ObjDir>$(SolutionDir)Obj\$(Configuration)\$(ProjectName)\</ObjDir>
+
+    <SDLInclPath>$(SolutionDir)Extras\SDL\include\</SDLInclPath>
+    <SDLLibPath>$(SolutionDir)Extras\SDL\lib\x86\</SDLLibPath>
+
+    <SdkExe>$(SolutionDir)Includes;$(ExecutablePath);</SdkExe>
+    <SdkIncl110>$(SolutionDir);$(SolutionDir)CustomMod\;$(ProjectDir);$(SamEngineModels);$(SDLInclPath);$(IncludePath);</SdkIncl110>
+    <SdkIncl>$(SdkIncl110);$(SolutionDir)Extras\Compatibility;</SdkIncl>
+    <SdkLibs>$(SolutionDir)Bin\$(Configuration);$(SDLLibPath);$(LibraryPath);</SdkLibs>
+  </PropertyGroup>
+</Project>

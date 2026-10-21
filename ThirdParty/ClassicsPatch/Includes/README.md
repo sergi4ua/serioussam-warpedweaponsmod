@@ -1,0 +1,45 @@
+# Serious Sam SDK - Includes
+
+This branch contains headers and libraries from different versions of Serious Engine 1 from the Serious Sam SDK. Original files have been released by Croteam during 2001-2002 period. [Serious Engine 1.10](https://github.com/Croteam-official/Serious-Engine) headers have been released in 2016.
+
+This SDK also includes a custom Entity Class Compiler (`Ecc.exe`) that is used to compile entity source files (`*.es`). Its source code is available separately here: https://github.com/DreamyCecil/SE1-ECC
+
+If you wish to develop mods for classic Serious Sam games, consider cloning the [`master`](https://github.com/DreamyCecil/SE1-ModSDK/tree/master) branch of this repository.
+
+If you wish to develop any other kind of project for classic Serious Sam games, you can include this branch into your repository as a submodule and build your projects for any Serious Sam game on Serious Engine 1.
+
+## Contents
+- Headers & libraries of Serious Engine versions:
+  - 1.05 for The First Encounter (`Engine105FE`)
+  - 1.05 for The Second Encounter (`Engine105`)
+  - 1.07 for The Second Encounter (`Engine107`)
+  - 1.10 for The Second Encounter (`Engine110`) *- clean build using Visual Studio 2013*
+  - 1.10 for Serious Sam Revolution (`EngineRev`) *- work-in-progress, use at your own risk*
+- `Common` - Sources for all Serious Engine versions
+  - `EccExtras` - Extra features for entity sources utilized by the custom Entity Class Compiler
+  - `Engine` - Common code suitable for all engine versions that was moved from the original headers
+  - `EngineEx` - Custom extensions to the SDK in a form of new useful classes and functions
+- `Models` & `ModelsMP` - Model headers used by vanilla `Entities` and `Game` projects from the SDK
+- `Ecc.exe` - Entity Class Compiler
+
+## Vanilla modules
+Games on 1.05 and 1.07 engine versions also include extra libraries, which are useful for when you need to link your logic with standard entities. For example, in entity packs that implement new enemy types, which are derived from the standard `CEnemyBase`.
+
+These libraries reside under a specific engine version (e.g. `Engine107`) and may include the following files:
+- Headers based on the vanilla code under `EntitiesV`, `GameGUIV` and `GameV` directories.
+- Static libraries for all three projects: `EntitiesV.lib`, `GameGUIV.lib` and `GameV.lib`, including debug ones with a `VD` suffix.
+
+These files are suffixed with `V` (for "Vanilla") to avoid confusion with libraries from the SDK itself. But they still refer to the original dynamic link libraries (e.g. `Entities.dll` in TFE and `EntitiesMP.dll` in TSE).
+
+## Project settings
+
+- When specifying paths to includes, specify a path to headers for all engine versions (e.g. `Includes/Common/`) and a desired engine version (e.g. `Includes/Engine107/`).
+  - If you wish to use vanilla model headers from here instead of placing your own ones (e.g. for light mods with no model changes), specify a path to model headers (usually `Includes/CommonModels/`).
+
+- To include static libraries of a specific engine version, specify the same path as for the engine headers (e.g. `Includes/Engine107/`).
+
+- And finally, specify the root directory of this branch (usually `Includes/`) as a path to executable files (for running Entity Class Compiler as a simple `ecc` command). This is only required for projects that contain and compile entity source (`.es`) files.
+
+## License
+
+Just like Croteam's [Serious Engine 1.10](https://github.com/Croteam-official/Serious-Engine) source code, Serious Sam SDK is licensed under the GNU GPL v2 (see LICENSE file).

@@ -1,0 +1,133 @@
+28
+
+\0\<
+Cannot load game theme config '%s':\n
+%s\n
+
+\0\>
+Невозможно загрузить игровую тему '%s':\n
+%s\n
+
+\0\<
+Trying to load a sync theme during an ongoing synchronization!
+\0\>
+Попытка загрузки темы с синхронизацией во время текущей синхронизации!
+\0\<
+Unknown property '%s'
+\0\>
+Неизвестное свойство '%s'
+\0\<
+Cannot load model config:\n
+%s (%d) : %s\n
+
+\0\>
+Невозможно загрузить конфиг с моделью:\n
+%s (%d) : %s\n
+
+\0\<
+Cannot setup model '%s':\n
+%s\n
+
+\0\>
+Невозможно настроить модель '%s':\n
+%s\n
+
+\0\<
+Mod from Classics Patch can only be launched from the patch itself by using its executables!\n
+\n
+Could not locate 'SeriousSam_Custom.exe'. Please reinstall the patch or locate the appropriate executable, if it has been renamed.
+\0\>
+Модификация из Classics Patch может быть запущена только через сам патч с помощью его исполняемых файлов!\n
+\n
+Не удалось найти 'SeriousSam_Custom.exe'. Пожалуйста, переустановите патч или найдите соответствующий исполняемый файл, если он был переименован.
+\0\<
+%s was shot by a Catman
+\0\>
+Кэтмэн застрелил %s
+\0\<
+Cyborg blew %s away
+\0\>
+Киборг взорвал %s
+\0\<
+%s was beaten to death by a Cyborg
+\0\>
+Киборг забил %s досмерти
+\0\<
+%s was killed by a Dragon
+\0\>
+Дракон убил %s
+\0\<
+%s was kicked to death by a Dragon
+\0\>
+Дракон запинал %s досмерти
+\0\<
+%s was killed by a Fishman
+\0\>
+Фишмэн убил %s
+\0\<
+%s was ripped apart by a Fishman
+\0\>
+Фишмэн разорвал %s на куски
+\0\<
+%s was killed by a Mammoth
+\0\>
+Мамонт убил %s
+\0\<
+%s was stabbed to death by a Mammooth
+\0\>
+Мамонт пронзил %s насквозь
+\0\<
+%s has been gunned down by a Mamutman
+\0\>
+Мамутмэн застрелил %s
+\0\<
+%s was killed by a Mantaman
+\0\>
+Мантамэн убил %s
+\0\<
+Huanman blew %s away
+\0\>
+Хуанмэн взорвал %s
+\0\<
+%s got oblitirated by a Destroyer
+\0\>
+Дестроер уничтожил %s
+\0\<
+%s was killed by a robot
+\0\>
+Робот убил %s
+\0\<
+%s was blown away by a flying robot
+\0\>
+Летающий робот взорвал %s
+\0\<
+Ughzy killed %s
+\0\>
+Угхзи убил %s
+\0\<
+Omni Golem blew %s into quantum state
+\0\>
+Квантовый голем перевел %s в квантовое состояние
+\0\<
+%s was drowned by a Water Golem
+\0\>
+Водяной голем утопил %s
+\0\<
+Earth Golem buried %s in the ground
+\0\>
+Земляной голем закопал %s в землю
+\0\<
+%s was blown away by a Air Golem
+\0\>
+Воздушный голем сдул %s
+\0\<
+%s was killed by an elemental
+\0\>
+Стихийный голем убил %s
+\0\<
+Squirrel scripts are unavailable!\n
+
+\0\>
+Поддержка Squirrel скриптов недоступна!\n
+
+\0\$
